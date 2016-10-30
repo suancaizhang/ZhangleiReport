@@ -22,9 +22,11 @@
 		<style type="text/css">
 			button{outline: none;}
 			h1,h2,h3,h4,h5,h6{font-family: 'Microsoft YaHei';}
+      h1{font-family: 'Microsoft YaHei'!important;}
 			h2{font-family: 'Microsoft YaHei'!important;font-weight:400!important;"}
 			section{font-family: 'Microsoft YaHei'!important;}
 			.page1 li{margin-bottom: 10px;}
+      .reveal .progress{top:0!important;}
 		</style>
 
 
@@ -49,64 +51,89 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h2 style="font-family: 'Microsoft YaHei';font-weight:400;">试用期报告</h2>
-					<h3></h3>
-					<h3 style="font-family: 'Microsoft YaHei';font-weight:400;">试用期工作总结 后续工作计划 建议</h3>
+					<h1 style="font-family: 'Microsoft YaHei';font-weight:400;margin-top: -60px;margin-bottom:50px">试用期报告</h1>
+					<!-- <h3></h3>
+					<h3 style="font-family: 'Microsoft YaHei';font-weight:400;">试用期工作总结 后续工作计划 建议</h3> -->
 					<p>
-						<small>Created by <a href="javascript:;">Zhang Lei</a> / <a href="javascript:;">2016-10-27</a></small>
+						<small style="margin-left: 230px;
+    display: inline-block;
+    position: relative;"><!-- Created by <a href="javascript:;"> -->Zhang Lei<!-- </a> --> / <!-- <a href="javascript:;"> -->2016-10-27<!-- </a> --></small>
 					</p>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
+
+          <section>
+            <h2>三个月做了什么.....</h2>
+          </section>
+
 					<section class="page1">
-						<h2>项目总结</h2>
-						<p style="font-family: 'Microsoft YaHei';font-weight:400;">主要分三个部分</p>
+						<!-- <h2 style="margin:-60px 0 50px">项目总结</h2> -->
+						<!-- <p style="font-family: 'Microsoft YaHei';font-weight:400;">主要分三个部分</p> -->
 						<!-- <p>Use the <em>Space</em> key to navigate through all slides.</p> -->
 						<ul style="font-family: 'Microsoft YaHei';font-weight:400;">
-							<li style="margin-bottom: 15px;">PC和移动端H5的前端部分</li>
-							<li style="margin-bottom: 15px;">内嵌移动端H5的前端部分</li>
-							<li style="margin-bottom: 15px;">后台管理系统的前端部分</li>
+							<li style="margin-bottom: 15px;">PC和移动端H5（还原设计图，前端交互，Ajax）</li>
+							<li style="margin-bottom: 15px;">移动端内嵌H5（客户端交互）</li>
+							<li style="margin-bottom: 15px;">后台管理系统（前端框架）</li>
 						</ul>
 						<!-- <br>
 						<a href="#" class="navigate-down">
 							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
 						</a> -->
 					</section>
+
+          
+
 					<section>
 						<h2>Part 1</h2>
 						<ul style="font-family: 'Microsoft YaHei';font-weight:400;">
-							<li style="margin-bottom: 15px;" class="fragment">(名师计划) (个人轨迹) (单独购买) <br>PC端和移动端公用一套样式的页面(只适用于多端结构和样式结构整体统一的情况 媒体查询原理)</li>
-							<li style="margin-bottom: 15px;" class="fragment">邮件中插入HTML</li>
+              <li style="margin-bottom: 15px;" class="fragment">名师计划（PC和移动端公用一套样式）</li>
+							<li style="margin-bottom: 15px;" class="fragment">个人轨迹页面（Ajax/适配）</li>
+              <li style="margin-bottom: 15px;" class="fragment">单独购买页面（适配）</li>
+							<li style="margin-bottom: 15px;" class="fragment">邮件中插入HTML（必须严格按照编写规范）</li>
 						</ul>
 					</section>
 					<section>
 						<h2>Part 2</h2>
+            <p class="fragment" style="font-family: 'Microsoft YaHei';">Ajax 前端模板引擎 客户端交互</p>
+            <!-- <h2 class="fragment">Ajax 前端模板引擎 客户端交互</h2> -->
 						<ul style="font-family: 'Microsoft YaHei';font-weight:400;">
-							<li style="margin-bottom: 15px;" class="fragment">结伴前端页面</li>
-							<li style="margin-bottom: 15px;" class="fragment">写好评活动前端页面</li>
-							<li style="margin-bottom: 15px;" class="fragment">老拉新活动前端页面</li>
-							<li style="margin-bottom: 15px;" class="fragment">会员大转盘活动前端页面</li>
+							<li style="margin-bottom: 15px;" class="fragment">结伴</li>
+							<li style="margin-bottom: 15px;" class="fragment">写好评活动</li>
+							<li style="margin-bottom: 15px;" class="fragment">老拉新活动</li>
+							<li style="margin-bottom: 15px;" class="fragment">会员大转盘活动</li>
 						</ul>
+
 					</section>
 					<section>
 						<h2>Part 3</h2>
+            <p class="fragment" style="font-family: 'Microsoft YaHei';">后端接口 前端页面 数据展示</p>
 						<ul style="font-family: 'Microsoft YaHei';font-weight:400;">
-							<li style="margin-bottom: 15px;">新后台管理系统（基于AangularJS）</li>
+							<li style="margin-bottom: 15px;" class="fragment">新后台管理系统（基于AngularJS）</li>
+              <li style="margin-bottom: 15px;" class="fragment">双向数据绑定 依赖注入（难点）</li>
+              <li style="margin-bottom: 15px;" class="fragment">Vue.JS</li>
 						</ul>
 					</section>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
+          <section>
+            <h2>接下来该怎么做.....</h2>
+          </section>
+
 					<section class="page1">
-						<h2>工作计划</h2>
+						<!-- <h2>工作计划</h2> -->
 						<!-- <p style="font-family: 'Microsoft YaHei';font-weight:400;">主要分三个部分</p> -->
 						<!-- <p>Use the <em>Space</em> key to navigate through all slides.</p> -->
 						<ul style="font-family: 'Microsoft YaHei';font-weight:400;">
-							<li style="margin-bottom: 15px;" class="fragment">在原有基础上增加lib.js中的功能部分 补充gitlab中和客户端交互部分的文档</li>
-							<li style="margin-bottom: 15px;" class="fragment">文件上传（图片 文件 单 多）整理</li>
-							<li style="margin-bottom: 15px;" class="fragment">内嵌H5代码整理</li>
+              <li style="margin-bottom: 15px;">总结经验教训 提高自己 提高效率</li>
+							<li style="margin-bottom: 15px;" class="fragment">移动端适配（除了采用rem.css 多用css3弹性盒模型 多端媒体查询）</li>
+              <li style="margin-bottom: 15px;" class="fragment">在原有基础上增加lib.js中的功能部分 补充gitlab中和客户端交互部分的文档（客户端交互基础）</li>
+							<li style="margin-bottom: 15px;" class="fragment">后台管理系统 文件上传（图片/文件/单/多） 表单数据绑定整理</li>
+							<li style="margin-bottom: 15px;" class="fragment">内嵌H5代码（前端交互封装 模块化 CSS3代替js的交互）</li>
+
 						</ul>
 					</section>
 				</section>
@@ -518,13 +545,19 @@
 				</section>
 
 				<section>
+
+          <section>
+            <h2>一些小的建议.....</h2>
+          </section>
+
 					<section class="page1">
-						<h2>建议</h2>
-						<p style="font-family: 'Microsoft YaHei';font-weight:400;">想蹭网</p>
+						
+						<p style="font-family: 'Microsoft YaHei';font-weight:400;">网速</p>
 						<!-- <p>Use the <em>Space</em> key to navigate through all slides.</p> -->
 						<ul style="font-family: 'Microsoft YaHei';font-weight:400;">
+              <li style="margin-bottom: 15px;" class="fragment">移动端真机不太好调试（chrome完全可以调试移动端 模拟适配 低网速 但是..）</li>
 							<li style="margin-bottom: 15px;" class="fragment">静态资源缓存</li>
-							<li style="margin-bottom: 15px;" class="fragment">外链加时间戳</li>
+							<li style="margin-bottom: 15px;" class="fragment">上传ftp外链时间戳</li>
 							<!-- <li style="margin-bottom: 15px;" class="fragment">内嵌H5代码整理</li> -->
 						</ul>
 					</section>
@@ -532,7 +565,8 @@
 
 				<section style="text-align: center;">
 					<h1>THE END</h1>
-					<h2>THX</h2>
+          <!-- <h1>谢 谢</h1> -->
+					<!-- <h5 style="font-family: 'Microsoft YaHei';margin-left:350px;">谢谢</h5> -->
 				
 				</section>
 
